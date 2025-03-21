@@ -15,9 +15,9 @@ my_list2 = [50, 60, 70]
 my_list.extend(my_list2)
 print(my_list)
 
-#question 5: Remove the element at index 2 from the list
+#question 5: Remove the last element from the my_list
 my_list = [10, 20, 30, 40, 50, 60, 70]
-my_list.remove(70)
+my_list.pop()
 print(my_list)
 
 #question 6: Sort the list in ascending order
